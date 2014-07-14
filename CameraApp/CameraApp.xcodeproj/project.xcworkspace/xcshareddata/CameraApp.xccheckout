@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AF684815-4E59-47B8-988D-EF04B7E5F328</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CameraApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C1A052FF-39EA-4E41-AEF0-CB98547E2A08</key>
+		<string>https://github.com/umairhhhs/IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CameraApp/CameraApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C1A052FF-39EA-4E41-AEF0-CB98547E2A08</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/umairhhhs/IOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C1A052FF-39EA-4E41-AEF0-CB98547E2A08</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C1A052FF-39EA-4E41-AEF0-CB98547E2A08</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

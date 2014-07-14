@@ -387,7 +387,7 @@ int panalNumber=0;
 {
     opacityControll.hidden=YES;
     int aSize = 100.0;
-    float color[4] = { 0.0, 0.0, 1.0, 1.0 }; // Blue
+    CGFloat color[4] = { 0.0, 0.0, 1.0, 1.0 }; // Blue
     CGColorRef aColor = CGColorCreate(CGColorSpaceCreateDeviceRGB(), color);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(context, aSize);

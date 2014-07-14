@@ -18,6 +18,7 @@
 		35791CD5171588890011FD1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35791CD4171588890011FD1F /* Default-568h@2x.png */; };
 		35791CD8171588890011FD1F /* APPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35791CD7171588890011FD1F /* APPViewController.m */; };
 		35791CDB171588890011FD1F /* APPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35791CD9171588890011FD1F /* APPViewController.xib */; };
+		801F7082194B14390026ACBA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F7081194B14390026ACBA /* FacebookSDK.framework */; };
 		802FB51D18310A6D003F663A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802FB51C18310A6D003F663A /* QuartzCore.framework */; };
 		80692615181A355A00E6DBFD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80692614181A355A00E6DBFD /* AssetsLibrary.framework */; };
 		80725FA51844A3B9003DB8CD /* PanalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80725FA41844A3B9003DB8CD /* PanalView.m */; };
@@ -49,15 +50,12 @@
 		809530A518190553005E05D4 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 809530A418190553005E05D4 /* FBUserSettingsViewResources.bundle */; };
 		80970EC8181F9E3200F9CFAE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80970EC6181F9E3200F9CFAE /* MenuViewController.m */; };
 		80970EC9181F9E3200F9CFAE /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80970EC7181F9E3200F9CFAE /* MenuViewController.xib */; };
-		8099A02618210698006E15C4 /* MemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8099A02418210698006E15C4 /* MemeViewController.m */; };
-		8099A02718210698006E15C4 /* MemeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8099A02518210698006E15C4 /* MemeViewController.xib */; };
 		80A9C273182A5840008D67E4 /* panalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9C271182A5840008D67E4 /* panalViewController.m */; };
 		80A9C274182A5840008D67E4 /* panalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A9C272182A5840008D67E4 /* panalViewController.xib */; };
 		80C20150182A69E100D36D37 /* facesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C2014E182A69E100D36D37 /* facesViewController.m */; };
 		80C20151182A69E100D36D37 /* facesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C2014F182A69E100D36D37 /* facesViewController.xib */; };
 		80C20155182A69FB00D36D37 /* shapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C20153182A69FB00D36D37 /* shapesViewController.m */; };
 		80C20156182A69FB00D36D37 /* shapesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C20154182A69FB00D36D37 /* shapesViewController.xib */; };
-		80E8A1D318604D7F00F3AD8E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E8A1D218604D7F00F3AD8E /* FacebookSDK.framework */; };
 		80E8A1D618604E8200F3AD8E /* appstatesave.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E8A1D518604E8200F3AD8E /* appstatesave.m */; };
 		80FBA491184CA79D00DD6D96 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80FBA490184CA79D00DD6D96 /* white.jpg */; };
 /* End PBXBuildFile section */
@@ -79,6 +77,7 @@
 		35791CD6171588890011FD1F /* APPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPViewController.h; sourceTree = "<group>"; };
 		35791CD7171588890011FD1F /* APPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPViewController.m; sourceTree = "<group>"; };
 		35791CDA171588890011FD1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APPViewController.xib; sourceTree = "<group>"; };
+		801F7081194B14390026ACBA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		802FB51C18310A6D003F663A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		80692614181A355A00E6DBFD /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		80725FA31844A3B9003DB8CD /* PanalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanalView.h; sourceTree = "<group>"; };
@@ -124,9 +123,6 @@
 		80970EC5181F9E3200F9CFAE /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		80970EC6181F9E3200F9CFAE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		80970EC7181F9E3200F9CFAE /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
-		8099A02318210698006E15C4 /* MemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemeViewController.h; sourceTree = "<group>"; };
-		8099A02418210698006E15C4 /* MemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemeViewController.m; sourceTree = "<group>"; };
-		8099A02518210698006E15C4 /* MemeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MemeViewController.xib; sourceTree = "<group>"; };
 		80A9C270182A5840008D67E4 /* panalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = panalViewController.h; sourceTree = "<group>"; };
 		80A9C271182A5840008D67E4 /* panalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = panalViewController.m; sourceTree = "<group>"; };
 		80A9C272182A5840008D67E4 /* panalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = panalViewController.xib; sourceTree = "<group>"; };
@@ -147,12 +143,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801F7082194B14390026ACBA /* FacebookSDK.framework in Frameworks */,
 				802FB51D18310A6D003F663A /* QuartzCore.framework in Frameworks */,
 				80692615181A355A00E6DBFD /* AssetsLibrary.framework in Frameworks */,
 				35791CBF171588890011FD1F /* UIKit.framework in Frameworks */,
 				35791CC1171588890011FD1F /* Foundation.framework in Frameworks */,
 				35791CC3171588890011FD1F /* CoreGraphics.framework in Frameworks */,
-				80E8A1D318604D7F00F3AD8E /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +176,7 @@
 		35791CBD171588890011FD1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				801F7081194B14390026ACBA /* FacebookSDK.framework */,
 				80E8A1D218604D7F00F3AD8E /* FacebookSDK.framework */,
 				802FB51C18310A6D003F663A /* QuartzCore.framework */,
 				80692614181A355A00E6DBFD /* AssetsLibrary.framework */,
@@ -258,9 +255,6 @@
 				809026C018224CE400C79C9F /* PhotoBombViewController.h */,
 				809026C118224CE400C79C9F /* PhotoBombViewController.m */,
 				809026C218224CE400C79C9F /* PhotoBombViewController.xib */,
-				8099A02318210698006E15C4 /* MemeViewController.h */,
-				8099A02418210698006E15C4 /* MemeViewController.m */,
-				8099A02518210698006E15C4 /* MemeViewController.xib */,
 				80935B51184C69B00027A0DA /* dragableUITextFeild.h */,
 				80935B52184C69B00027A0DA /* dragableUITextFeild.m */,
 				808FE9D31830B46300B524AE /* dragable.h */,
@@ -363,7 +357,6 @@
 				809026B018224C4E00C79C9F /* RageComicsViewController.xib in Resources */,
 				809026B518224C6100C79C9F /* TypeViewController.xib in Resources */,
 				80C20156182A69FB00D36D37 /* shapesViewController.xib in Resources */,
-				8099A02718210698006E15C4 /* MemeViewController.xib in Resources */,
 				80A9C274182A5840008D67E4 /* panalViewController.xib in Resources */,
 				80C20151182A69E100D36D37 /* facesViewController.xib in Resources */,
 				809026C418224CE400C79C9F /* PhotoBombViewController.xib in Resources */,
@@ -397,7 +390,6 @@
 				80C20150182A69E100D36D37 /* facesViewController.m in Sources */,
 				80A9C273182A5840008D67E4 /* panalViewController.m in Sources */,
 				809332F2181F8AAF001A72DD /* LoLifyViewController.m in Sources */,
-				8099A02618210698006E15C4 /* MemeViewController.m in Sources */,
 				80725FAA1845DF77003DB8CD /* iOSCircle.m in Sources */,
 				80970EC8181F9E3200F9CFAE /* MenuViewController.m in Sources */,
 				809026B918224C8E00C79C9F /* MixPixViewController.m in Sources */,
@@ -496,6 +488,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Umair/Downloads/CameraApp,
+					/Users/Umair/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";
@@ -514,6 +507,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Umair/Downloads/CameraApp,
+					/Users/Umair/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";

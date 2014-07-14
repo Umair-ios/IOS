@@ -9,7 +9,6 @@
 #import "MenuViewController.h"
 #import "APPViewController.h"
 #import "LoLifyViewController.h"
-#import "MemeViewController.h"
 #import "TypeViewController.h"
 #import "CaptionViewController.h"
 #import "RageComicsViewController.h"
@@ -57,9 +56,10 @@
 
 - (IBAction)memes:(id)sender
 {
+    /*
     MemeViewController* Meme = [[MemeViewController alloc] initWithNibName:@"MemeViewController" bundle:nil];
     [self.navigationController pushViewController:Meme animated:YES ];
-
+*/
 }
 
 - (IBAction)caption:(id)sender
